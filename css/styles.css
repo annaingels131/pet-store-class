@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/*===========UNIVERSALS===============*/
+p {
+  font-size: 16px;
+}
+
+a {
+  color: #75b8e9
+}
+/*==============HEADER==============*/
+#header-logo {
+  width: 90px;
+}
+
+#logo-style {
+  font-family: 'Satisfy', cursive;
+  color: #ff827b;
+  margin-top: 20px;
+}
+
+.nav-links {
+  font-size: 16px;
+  color: #75b8e9;
+  /*margin: 30px 10px;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.flex-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+
+/*=================JUMBOTRON=============*/
+.jumbotron {
+  background-image: url("../img/hero.jpg");
+  height: 450px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*============FEATURE===============*/
+.thumb-background {
+  background-color: #eee;
+  border-radius: 5%;
+  margin-right: 2px; /*hack solution*/
+}
+
+.thumb-background img {
+  margin: 10px 0px;
+}
+
+.caption button {
+  margin-bottom: 10px;
+}
+
+
+/*=============FOOTER============*/
+footer {
+  background-color: #231f20;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+.right-border {
+  border-right: 1px solid #333;
+}
+
+#footer-logo {
+  height: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #bfc0c1;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #fff;
+}
