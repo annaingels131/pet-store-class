@@ -1,0 +1,28 @@
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
+  align-self: float;
+}
+
+.container>div {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #000;
+}
+
+.container {
+  height: 800px;
+  background-color: orange;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
