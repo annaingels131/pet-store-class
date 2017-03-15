@@ -1,0 +1,22 @@
+/*==========DR SECTION============*/
+img {
+  height: 180px;
+}
+
+
+.flex-wrapper {
+  display: flex;
+}
+
+
+/*============MAP SECTION=============*/
+iframe {
+  height: 400px;
+}
+
+
+/*================TABLE==============*/
+
+table {
+  margin-top: 20px;
+}
